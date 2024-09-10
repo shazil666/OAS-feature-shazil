@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black
+    }
+    .btn{
+    border: 1px solid#3f443e;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    }
+    .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9,.btn10{
+        color:  #3f443e;
+    }
+    .btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover,.btn8:hover,.btn9:hover,.btn10:hover{
+        color: #3f443e;
+    }
+    .btn::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        background:  #166307;
+        z-index: 1;
+        transition: 0.8s;
+        }
+        .btn1::before,.btn2::before,.btn3::before,.btn4::before,.btn5::before,.btn6::before,.btn7::before,.btn8::before,.btn9::before,.btn10::before{
+        top: 0;
+        border-radius: 00 50% 50%;
+        }
+        .btn1:hover::before,.btn2:hover::before,.btn3:hover::before,.btn4:hover::before,.btn5:hover::before,.btn6:hover::before,.btn7:hover::before,.btn8:hover::before,.btn9:hover::before,.btn10:hover::before{
+            height: 180%;
+        }
+        .cards{
+            width: 30%;
+            display: inline-block;
+        }
+        .image img{
+            width: 80%;
+        }
+        .des{
+            color: white;
+        }
+        .title{
+            color: white;
+        }
+        .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8,.btn9,.btn10{
+            background-color: #fff;
+        }
+        .cards1{
+            width: 80%;
+        }
+        .image1 img{
+            width: 100%;
+        }
+        .image2 img{
+            width: 30%;
+        }

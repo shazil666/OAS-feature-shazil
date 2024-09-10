@@ -1,0 +1,78 @@
+.body{
+    background-color: black;
+}
+.container .input{
+    border: 0;
+    outline: none;
+    color: #8b7d77;
+}
+.search_wrap .search_box{
+    position: relative;
+    width: 500px;
+    height: 60px;
+}
+.search_wrap .search_box .input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.search_wrap .search_box .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 257px;
+    width: 60px;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
+    }
+.social-icon ul{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.social-icon ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.social-icon ul li .fab{
+    font-size: 35px;
+    line-height: 60px;
+    transition: .3s;
+    color: #000;
+}
+.social-icon ul li a:hover{
+    color: #fff;
+}
+.social-icon ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0.2);
+    transition: .6s;
+}
+.social-icon ul li a:hover{
+    transform: translate(0,-10%);
+}
+.social-icon ul li:nth-child(1) a:hover{
+    background-color: blue;
+}
+.social-icon ul li:nth-child(2) a:hover{
+    background-color: skyblue;
+}
+.social-icon ul li:nth-child(3) a:hover{
+    background-color: rgb(221, 57, 7);
+}
+.social-icon ul li:nth-child(4) a:hover{
+    background-color: red;
+}

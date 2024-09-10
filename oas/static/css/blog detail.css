@@ -1,0 +1,20 @@
+.blockquote{
+max-width: 1500px;
+margin: 10px 30px;
+padding: 25px;
+background:#f8fffe;
+border: 1px solid #49dd2b;
+color: gray;
+box-sizing: border-box;
+}
+.blockquote--bordered{
+    border-left-width: 10px;
+}
+.blockquote--quoted::before{
+    content: "\201c";
+    font-size: 100px;
+    color: #166307;
+    display: block;
+    margin-bottom: -40px;
+    margin-top: -20px;
+}
